@@ -698,15 +698,17 @@ Wire Wire Line
 Wire Wire Line
 	5400 5000 5850 5000
 Connection ~ 5850 5000
-$Comp
-L IGEM_Device:+2V85 #PWR?
-U 1 1 5D00BB3F
-P 6100 4300
-F 0 "#PWR?" H 6100 4150 50  0001 C CNN
-F 1 "+2V85" H 6115 4473 50  0000 C CNN
-F 2 "" H 6100 4300 50  0001 C CNN
-F 3 "" H 6100 4300 50  0001 C CNN
-	1    6100 4300
-	1    0    0    -1  
-$EndComp
+Text Label 4800 5000 0    50   ~ 0
+IP_CATHODE
+Wire Wire Line
+	5400 5000 4800 5000
+Connection ~ 5400 5000
+Text Label 5800 5100 0    50   ~ 0
+IP_CONTROL
+Wire Wire Line
+	6300 5100 5800 5100
+Text Label 4150 3600 1    50   ~ 0
+IP_CONTROL
+Wire Wire Line
+	4150 3100 4150 3600
 $EndSCHEMATC
