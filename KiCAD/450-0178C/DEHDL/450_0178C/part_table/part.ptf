@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART '450_0178C'
+CLASS = IC
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "RS_PART_NUMBER", "RS_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Laird Technologies", "450-0178C" (!) = "", "4500178C", "Other", "239-450-0178C", "https://www.mouser.com/Search/Refine.aspx?Keyword=239-450-0178C", "", "", "LAIRD TECHNOLOGIES - 450-0178C - SABLE-X-R2 MODULE, EXTERNAL ANTENNA PORT", "https://www.lsr.com/downloads/products/330-0237.pdf", "2 mm"
+END_PART
+
+END.

@@ -1,0 +1,58 @@
+*PADS-LIBRARY-PART-TYPES-V9*
+
+450-0178C 4500178C I ANA 9 1 0 0 0
+TIMESTAMP 2019.06.11.20.37.58
+"Manufacturer_Name" Laird Technologies
+"Manufacturer_Part_Number" 450-0178C
+"Mouser Part Number" 239-450-0178C
+"Mouser Price/Stock" https://www.mouser.com/Search/Refine.aspx?Keyword=239-450-0178C
+"RS Part Number" 
+"RS Price/Stock" 
+"Description" LAIRD TECHNOLOGIES - 450-0178C - SABLE-X-R2 MODULE, EXTERNAL ANTENNA PORT
+"Datasheet Link" https://www.lsr.com/downloads/products/330-0237.pdf
+"Geometry.Height" 2mm
+GATE 1 39 0
+450-0178C
+1 0 U RFOUT
+2 0 U GND_1
+3 0 U GND_2
+4 0 U NC_1
+5 0 U NC_2
+6 0 U /RESET
+7 0 U JTAG_TCKC
+8 0 U JTAG_TMSC
+9 0 U NC_3
+10 0 U NC_4
+11 0 U VCC_1
+12 0 U VCC_2
+13 0 U DIO_5/JTAG_TDO
+14 0 U DIO_6/JTAG_TDI
+15 0 U DIO_4
+16 0 U DIO_3
+17 0 U DIO_2
+18 0 U DIO_1/BOOT_RX
+19 0 U DIO_0/BOOT_TX_
+20 0 U DIO_7
+21 0 U DIO_8
+22 0 U GND_3
+23 0 U DIO_10
+24 0 U DIO_9
+25 0 U NC_5
+26 0 U NC_6
+27 0 U NC_7
+28 0 U NC_8
+29 0 U DIO_11
+30 0 U DIO_12
+31 0 U DIO_13
+32 0 U DIO_14
+33 0 U GND_4
+34 0 U GND_5
+35 0 U GND_6
+36 0 U GND_7
+37 0 U GND_8
+38 0 U GND_9
+39 0 U GND_10
+
+*END*
+*REMARK* SamacSys ECAD Model
+975677/149156/2.43/39/4/Integrated Circuit

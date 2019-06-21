@@ -1732,11 +1732,11 @@
 
   (gr_line (start 104.775 97.155) (end 104.775 90.17) (layer Edge.Cuts) (width 0.15))
   (gr_line (start 146.05 97.155) (end 104.775 97.155) (layer Edge.Cuts) (width 0.15))
-  (gr_line (start 146.05 88.9) (end 146.05 95.885) (layer Edge.Cuts) (width 0.15))
-  (gr_line (start 150.495 88.9) (end 146.05 88.9) (layer Edge.Cuts) (width 0.15) (tstamp 5D0C896C))
+  (gr_line (start 146.05 90.17) (end 146.05 97.155) (layer Edge.Cuts) (width 0.15))
+  (gr_line (start 150.495 90.17) (end 146.05 90.17) (layer Edge.Cuts) (width 0.15) (tstamp 5D0C896C))
   (gr_line (start 100.33 90.17) (end 100.33 50.8) (layer Edge.Cuts) (width 0.15))
   (gr_line (start 104.775 90.17) (end 100.33 90.17) (layer Edge.Cuts) (width 0.15))
-  (gr_line (start 150.495 49.53) (end 150.495 88.9) (layer Edge.Cuts) (width 0.15))
+  (gr_line (start 150.495 50.8) (end 150.495 90.17) (layer Edge.Cuts) (width 0.15))
   (gr_line (start 100.33 50.8) (end 150.495 50.8) (layer Edge.Cuts) (width 0.15))
 
   (via (at 110.49 74.295) (size 0.6) (drill 0.4) (layers F.Cu B.Cu) (net 4))

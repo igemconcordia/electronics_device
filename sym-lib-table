@@ -1,4 +1,7 @@
 (sym_lib_table
   (lib (name IGEM_Device)(type Legacy)(uri C:/Users/liste/Documents/IGEM_Device/IGEM_Device.lib)(options "")(descr ""))
   (lib (name 2019-05-30_20-01-46)(type Legacy)(uri ${KIPRJMOD}/KiCAD/2019-05-30_20-01-46/2019-05-30_20-01-46.lib)(options "")(descr ""))
+  (lib (name TSM-105-01-L-SH)(type Legacy)(uri C:/Users/liste/Documents/IGEM_Device/KiCAD/TSM-105-01-L-SH.lib)(options "")(descr ""))
+  (lib (name 2019-06-02_18-46-10)(type Legacy)(uri C:/Users/liste/Documents/IGEM_Device/KiCAD/KiCAD/2019-06-02_18-46-10/2019-06-02_18-46-10.lib)(options "")(descr ""))
+  (lib (name 1N4148WT)(type Legacy)(uri C:/Users/liste/Documents/IGEM_Device/KiCAD/1N4148WT.lib)(options "")(descr ""))
 )
