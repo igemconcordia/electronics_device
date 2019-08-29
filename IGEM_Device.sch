@@ -614,78 +614,6 @@ Wire Wire Line
 	2450 1350 1750 1350
 Wire Wire Line
 	2450 1250 1750 1250
-$Comp
-L IGEM_Device:G-NIMO-003 U6
-U 1 1 5D04021C
-P 6000 7400
-F 0 "U6" H 6250 7650 50  0000 C CNN
-F 1 "G-NIMO-003" H 6000 7150 50  0000 C CNN
-F 2 "G-NIMO-003:SON50P250X250X75-9N" H 6000 7400 50  0001 L BNN
-F 3 "G-NIMO-003" H 6000 7400 50  0001 L BNN
-F 4 "https://www.digikey.com/product-detail/en/te-connectivity-measurement-specialties/G-NIMO-003/223-1202-1-ND/4700925?utm_source=snapeda&utm_medium=aggregator&utm_campaign=symbol" H 6000 7400 50  0001 L BNN "Field4"
-F 5 "TE Connectivity" H 6000 7400 50  0001 L BNN "Field5"
-F 6 "TDFN-8 TE Connectivity" H 6000 7400 50  0001 L BNN "Field6"
-F 7 "TSYS02 Series 1.5 to 3.6 V Surface Mount Digital Temperature Sensor - TDFN-8" H 6000 7400 50  0001 L BNN "Field7"
-F 8 "G-NIMO-003" H 6000 7400 50  0001 L BNN "Field8"
-F 9 "223-1202-1-ND" H 6000 7400 50  0001 L BNN "Field9"
-F 10 "https://www.te.com/usa-en/product-G-NIMO-003.html?te_bu=Cor&te_type=disp&te_campaign=seda_glo_cor-seda-global-disp-prtnr-fy19-seda-model-bom-cta_sma-317_1&elqCampaignId=32493" H 6000 7400 50  0001 L BNN "Field10"
-	1    6000 7400
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR0115
-U 1 1 5D040377
-P 7150 7700
-F 0 "#PWR0115" H 7150 7450 50  0001 C CNN
-F 1 "GND" H 7155 7527 50  0000 C CNN
-F 2 "" H 7150 7700 50  0001 C CNN
-F 3 "" H 7150 7700 50  0001 C CNN
-	1    7150 7700
-	1    0    0    -1  
-$EndComp
-$Comp
-L IGEM_Device:+2V85 #PWR0116
-U 1 1 5D0403CF
-P 6600 7150
-F 0 "#PWR0116" H 6600 7000 50  0001 C CNN
-F 1 "+2V85" H 6615 7323 50  0000 C CNN
-F 2 "" H 6600 7150 50  0001 C CNN
-F 3 "" H 6600 7150 50  0001 C CNN
-	1    6600 7150
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C C6
-U 1 1 5D04044D
-P 6850 7300
-F 0 "C6" V 6598 7300 50  0000 C CNN
-F 1 "0.1u" V 6689 7300 50  0000 C CNN
-F 2 "Capacitors_SMD:C_0805" H 6888 7150 50  0001 C CNN
-F 3 "~" H 6850 7300 50  0001 C CNN
-	1    6850 7300
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	6400 7300 6600 7300
-Wire Wire Line
-	6600 7300 6600 7150
-Wire Wire Line
-	6700 7300 6600 7300
-Connection ~ 6600 7300
-Wire Wire Line
-	7000 7300 7150 7300
-Wire Wire Line
-	7150 7300 7150 7500
-Wire Wire Line
-	6400 7500 7150 7500
-Connection ~ 7150 7500
-Wire Wire Line
-	7150 7500 7150 7700
-Text Label 5350 7500 0    50   ~ 0
-SDA
-Text Label 5350 7300 0    50   ~ 0
-SCL
-NoConn ~ 6400 7400
 Wire Wire Line
 	2450 1550 1750 1550
 $Comp
@@ -863,7 +791,7 @@ U 1 1 5D0D35F4
 P 1550 1150
 F 0 "J2" H 1600 1350 50  0000 C CNN
 F 1 "Electrode_Conn" H 1650 600 50  0000 C CNN
-F 2 "TSM-105-01-L-SH:TSM-105-01-L-SH" H 1550 1150 50  0001 L BNN
+F 2 "TSW10508FSRA:TSW-105-08-F-S-RA" H 1550 1150 50  0001 L BNN
 F 3 "TSM-105-01-L-SH" H 1550 1150 50  0001 L BNN
 F 4 "SAM12229-ND" H 1550 1150 50  0001 L BNN "Field4"
 F 5 "None" H 1550 1150 50  0001 L BNN "Field5"
@@ -1014,10 +942,6 @@ Wire Wire Line
 	6950 3750 7450 3750
 Wire Wire Line
 	7150 3650 7850 3650
-Wire Wire Line
-	5600 7300 5350 7300
-Wire Wire Line
-	5600 7500 5350 7500
 Wire Wire Line
 	9700 3600 9400 3600
 Wire Wire Line

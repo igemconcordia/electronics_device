@@ -1,0 +1,27 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP NE555DR
+D Single Precision Timer
+K
+F http://www.ti.com/lit/ds/symlink/ne555.pdf
+$ENDCMP
+#
+$CMP 5-146280-3
+D Header vert 3 way 2.54mm AmpModu
+K
+F https://componentsearchengine.com/Datasheets/1/5-146280-3.pdf
+$ENDCMP
+#
+$CMP TC1014-3.3VCT713
+D Microchip TC1014-3.3VCT713, LDO Voltage Regulator, 0.05A, 3.3 V +/-2.5%, 2.7  6 Vin, 5-Pin SOT-23
+K
+F https://componentsearchengine.com/Datasheets/1/TC1014-3.3VCT713.pdf
+$ENDCMP
+#
+$CMP 1N4148WT
+D ON SEMICONDUCTOR - 1N4148WT - DIODE, SWITCHING, 75V, SOD-523F-2
+K
+F https://componentsearchengine.com/Datasheets/1/1N4148WT.pdf
+$ENDCMP
+#
+#End Doc Library

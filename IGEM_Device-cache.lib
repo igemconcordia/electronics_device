@@ -163,33 +163,6 @@ X VIN- 6 1850 50 300 L 59 59 1 0 I
 ENDDRAW
 ENDDEF
 #
-# IGEM_Device_G-NIMO-003
-#
-DEF IGEM_Device_G-NIMO-003 U 0 40 Y Y 1 L N
-F0 "U" -300 200 50 H V L BNN
-F1 "IGEM_Device_G-NIMO-003" -300 -300 50 H V L BNN
-F2 "SON50P250X250X75-9N" 0 0 50 H I L BNN
-F3 "G-NIMO-003" 0 0 50 H I L BNN
-F4 "https://www.digikey.com/product-detail/en/te-connectivity-measurement-specialties/G-NIMO-003/223-1202-1-ND/4700925?utm_source=snapeda&utm_medium=aggregator&utm_campaign=symbol" 0 0 50 H I L BNN
-F5 "TE Connectivity" 0 0 50 H I L BNN
-F6 "TDFN-8 TE Connectivity" 0 0 50 H I L BNN
-F7 "TSYS02 Series 1.5 to 3.6 V Surface Mount Digital Temperature Sensor - TDFN-8" 0 0 50 H I L BNN
-F8 "G-NIMO-003" 0 0 50 H I L BNN
-F9 "223-1202-1-ND" 0 0 50 H I L BNN
-F10 "https://www.te.com/usa-en/product-G-NIMO-003.html?te_bu=Cor&te_type=disp&te_campaign=seda_glo_cor-seda-global-disp-prtnr-fy19-seda-model-bom-cta_sma-317_1&elqCampaignId=32493" 0 0 50 H I L BNN
-DRAW
-P 2 0 0 10 -300 -200 -300 200 N
-P 2 0 0 10 -300 200 300 200 N
-P 2 0 0 10 300 -200 -300 -200 N
-P 2 0 0 10 300 200 300 -200 N
-X VDD 1 400 100 100 L 40 40 0 0 W
-X SCL 2 -400 100 100 R 40 40 0 0 I C
-X SDA 3 -400 -100 100 R 40 40 0 0 B
-X GND 4 400 -100 100 L 40 40 0 0 W
-X EP 9 400 0 100 L 40 40 0 0 W
-ENDDRAW
-ENDDEF
-#
 # IGEM_Device_LM334MX_NOPB
 #
 DEF IGEM_Device_LM334MX_NOPB U 0 10 Y Y 1 F N
